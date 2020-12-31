@@ -1017,6 +1017,46 @@ img {
   .single-products-catagory:focus .hover-content h4 {
     color: #F2E5D7; }
 
+/* :: Index page CSS */
+    .index-welcome {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  top: 0; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .index-welcome {
+      width: 100%; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .index-welcome {
+      width: 100%; } }
+  @media only screen and (max-width: 767px) {
+    .index-welcome {
+      width: 100%; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .index-welcome {
+      width: 100%; } }
+  .index-welcome a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10; }
+    .index-welcome a::after {
+      -webkit-transition-duration: 250ms;
+      transition-duration: 250ms;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      content: '';
+      background-color: rgba(60, 60, 60, 0.7);
+      z-index: 1;
+      opacity: 0;
+      visibility: visible; }
+    .index-welcome a img {
+      width: 100%; }
+
 /* :: 6.0 Newsletter Area CSS */
 .newsletter-area {
   position: relative;
