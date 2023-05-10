@@ -6,49 +6,18 @@
 @import url(../css/magnific-popup.css);
 @import url(../css/jquery-ui.min.css);
 @import url(../css/nice-select.css);
-@import url('https://fonts.googleapis.com/css?family=Piazzolla:thin,medium,black|Roboto:thin,medium,black');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 /* :: 2.0 Import All CSS */
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
   padding: 0; }
 
+p,
 body {
-  font-family:"Roboto", sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   color: #262322;
-  font-size: 12px;
-  font-style: thin; }
-
-h1,
-h2, {
-  font-family:"Piazzolla", serif;
-  color: #262322;
-  font-size: 16px;
-  font-style: black;
-}
-
-h3,
-h4, {
-  font-family:"Piazzolla", sans-serif;
-  color: #262322;
-  line-height: 1.3;
-  font-size: 14px;
-  font-style: medium; }
-
-h5,
-h6 {
-  font-family:"Roboto", sans-serif;
-  color: #262322;
-  line-height: 1.3;
-  font-size: 14px;
-  font-style: medium; }
-
-p {
-  font-family:"Roboto", sans-serif;
-  color: #262322;
-  font-size: 12px;
-  line-height: 1.9;
-  font-style: thin; }
+  font-size: 12px;}
 
 a {
   -webkit-transition: all 500ms ease 0s;
@@ -64,7 +33,7 @@ a {
     text-decoration: none;
     outline: 0 solid transparent;
     color: rgba(0,0,0,0);
-    font-weight: 500;
+    font-weight: 300;
     font-size: 12px; }
 
 ul,
@@ -164,7 +133,6 @@ img {
   .section-heading h2 {
     font-size: 30px;
     margin-bottom: 0;
-    text-transform: capitalize;
     font-weight: 600; }
   .section-heading.text-left {
     text-align: left !important; }
@@ -458,7 +426,6 @@ img {
       display: block; }
     .main-content-wrapper .header-area .amado-nav li a {
       font-size: 14px;
-      text-transform: uppercase;
       position: relative;
       z-index: 1;
       padding: 20px 0;
@@ -495,7 +462,6 @@ img {
       display: block; }
     .main-content-wrapper .header-area .cart-fav-search a {
       display: block;
-      text-transform: uppercase;
       font-size: 16px;
       padding: 15px 0;
       color: #131212;
@@ -653,7 +619,6 @@ img {
           max-width: 25%;
           font-size: 12px;
           color: #242424;
-          text-transform: capitalize;
           font-weight: 400; }
     .main-content-wrapper .cart-table-area table tbody {
       width: 100%;
@@ -757,8 +722,7 @@ img {
           -webkit-box-pack: justify;
           -ms-flex-pack: justify;
           justify-content: space-between;
-          margin-bottom: 30px;
-          text-transform: capitalize; }
+          margin-bottom: 30px; }
           .main-content-wrapper .cart-table-area .cart-summary .summary-table li span {
             color: #6b6b6b;
             font-size: 14px; }
@@ -800,12 +764,10 @@ img {
     .main-content-wrapper .single-product-area .breadcrumb {
       background-color: transparent; }
       .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item {
-        font-size: 14px;
-        text-transform: uppercase; }
+        font-size: 14px;}
         .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item a {
           color: #242424;
-          font-size: 14px;
-          text-transform: uppercase; }
+          font-size: 14px;}
           .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item a:hover {
             color: #F2E5D7; }
       .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
@@ -1220,7 +1182,6 @@ img {
     .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link {
       padding: 10px 30px;
       color: #fff;
-      text-transform: uppercase;
       font-size: 14px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link {
@@ -1241,10 +1202,8 @@ img {
   z-index: 1; }
   .widget .widget-title {
     font-size: 16px;
-    text-transform: capitalize;
     color: #242424; }
   .widget .catagories-menu li a {
-    text-transform: capitalize;
     font-size: 16px;
     padding: 15px 0 15px 20px;
     display: block;
@@ -1275,7 +1234,6 @@ img {
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
-    text-transform: uppercase;
     color: #959595; }
   .widget.color .widget-desc ul {
     -ms-flex-wrap: wrap;
@@ -1341,8 +1299,7 @@ img {
   .product-topbar .total-products p {
     margin-bottom: 15px;
     font-size: 14px;
-    color: #242424;
-    text-transform: uppercase; }
+    color: #242424; }
   .product-topbar .total-products .view a {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 40px;
@@ -1385,7 +1342,6 @@ img {
       font-size: 12px;
       font-weight: 400;
       color: #242424;
-      text-transform: uppercase;
       background-color: #F2E5D7; }
   .product-topbar .nice-select {
     border: none;
