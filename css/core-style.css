@@ -239,9 +239,9 @@ img {
       display: flex; } }
   .mobile-nav .amado-navbar-brand {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 70px;
-    flex: 0 0 70px;
-    max-width: 70px; }
+    -ms-flex: 0 0 160px;
+    flex: 0 0 160px;
+    max-width: 160px; }
     .mobile-nav .amado-navbar-brand a {
       display: block;
       max-width: 70px; }
